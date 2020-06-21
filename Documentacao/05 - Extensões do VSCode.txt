@@ -1,0 +1,11 @@
+Angular Console
+Angular Snippets
+Better Comments
+Debugger for Chrome
+GitLens
+Npm support for vscode
+npm intellisense
+vscode icons
+
+
+utilizar o Angular Augury, apenas uma extesão para o navegador

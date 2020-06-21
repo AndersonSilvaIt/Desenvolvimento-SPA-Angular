@@ -1,0 +1,33 @@
+Decorator codifica como a classe deve se comportar
+
+ex de comando para criar um modulo
+
+ng g module Funcionalidade
+
+no angular existe somente um módulo principal que é o App.Module,
+para usar outros modules para trabalhar em conjunto, dentro desses novos modulos é necessário importar o CommomModule
+
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+
+
+@NgModule({
+  declarations: [],
+  imports: [
+    CommonModule
+  ]
+})
+export class FuncionalidadeModule { }
+
+
+ng g service Servico
+
+ao gerar um servico, o mesmo não é disponível no AppModule, é preciso inserir manualmente
+
+import {ServicoService} from './servico.service'
+
+
+  providers: [
+    ServicoService
+  ],

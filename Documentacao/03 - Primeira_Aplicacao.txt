@@ -1,0 +1,11 @@
+Para criar a aplicação, entrar na pasta do projeto pelo cmd, no caso
+
+C:\Users\Prodwin\Desktop\SPA_Angular\Desenvolvimento-SPA-Angular
+
+rodar comando ng new "Nome_Projeto"
+
+ng new MinhaAppAngular
+
+basta entrar nessa pasta abrir com o vscode 
+
+code .  (o ponto é para abrir na pasta atual)

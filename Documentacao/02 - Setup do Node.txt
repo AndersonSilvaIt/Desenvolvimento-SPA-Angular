@@ -1,0 +1,8 @@
+Instalar o Node
+Instalar o NPM (já vem com o angular)
+
+Instalar o CLI do Angular
+
+npm install -g @angular/cli
+(instalar direto na máquina mesmo, não em uma ásta específica ou projeto)
+

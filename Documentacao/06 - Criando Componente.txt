@@ -1,0 +1,38 @@
+comando para gerar o componente
+
+ng generate component NomeComponente
+
+ou pode criar diretamente dentro de uma pasta 
+ex: ng generate component pasta/NomeComponente
+
+Automaticamente será criado 4 arquivos,
+
+o html,
+  css
+  o arquivo angular "meu-componente.component.ts"
+  a o arquivo de especificação
+  
+ caso excluir o arquivo de css, é necessário também exlcuir no arquivo do Angular "meu-componente.component.ts"
+ 
+ 
+ 
+export class MeuComponenteComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
+
+o componente por padrão, herda da interfac eOnInit, e é obrigado implementar o método ngOnInit,
+esse método é chamado quando inicializa o componente
+parecido com o Onload do aspx C#
+
+
+outra forma simples de gerar um componente é utiliar os comandos de forma reduzida
+g = generate
+c = component
+ng g c Home
+
+Toda vez que é criado um component pelo CLI, é adicionado a referencia em app.modules.ts

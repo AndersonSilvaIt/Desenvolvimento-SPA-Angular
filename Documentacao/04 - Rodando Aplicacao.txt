@@ -1,0 +1,5 @@
+comando para rodar a aplicação
+ng serve
+
+no caso, a porta liberada foi a 4200
+basta acessar o browser: http://localhost:4200/
